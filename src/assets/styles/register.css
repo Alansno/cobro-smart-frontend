@@ -1,0 +1,24 @@
+.bg-form {
+    background-image: url('../img/Fondo.jpg');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-register {
+    background-color: white;
+    border-radius: 30px;
+    width: 600px;
+}
+
+.formRegister-color {
+    color: #26858B;
+}
+
+@media only screen and (max-width:600px) {
+
+    .form-register {
+        width: 350px;
+    }
+}

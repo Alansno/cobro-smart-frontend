@@ -1,0 +1,23 @@
+.bg-form-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-client {
+    width: 70%;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .bg-form-client {
+        margin-top: 70px;
+    }
+
+    .form-client {
+        width: 90%;
+    }
+}

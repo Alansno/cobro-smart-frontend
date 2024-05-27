@@ -1,0 +1,170 @@
+.bg-clients-service {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35CEDA;
+    height: 80px;
+}
+
+.clients-tittle h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.client-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #35CEDA;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.client-label p {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.label-content {
+    display: flex;
+    align-items: center;
+    background-color: #CBF1F6!important;
+    border-radius: 30px!important;
+    height: 40px;
+    padding: 10px;
+}
+
+.label-content p {
+    padding-top: 10px;
+}
+
+.label-content small {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.select-label {
+    width: 200px;
+    background-color: #CBF1F6;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.input-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 40px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.input-status p {
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+th {
+    background-color: #35CEDA!important;
+}
+
+td {
+    background-color: #CBF1F6!important;
+}
+
+.btn-registro {
+    border: none;
+    border-radius: 30px;
+    background-color: #35CEDA;
+}
+
+.btn-registro a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: block;
+    position: fixed; /* Se superpone al contenido */
+    z-index: 109; /* Ubicación en la pila de capas */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cobertura de toda la pantalla */
+    height: 100%;
+    overflow: auto; /* Permitir desplazamiento si es necesario */
+    background-color: rgba(0,0,0,0.4); /* Fondo semitransparente */
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 70px auto; /* Centrar verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 500px;
+  }
+
+  .modal-content p {
+    background-color: #D9D9D9;
+  }
+
+  .modal-sup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .modal-sup h2 {
+    font-size: 20px;
+  }
+  
+  /* Estilos para el botón de cierre del modal */
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+@media only screen and (max-width:600px) {
+
+    .text-nothing {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 120px auto; /* Centrar verticalmente */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        height: 80%;
+      }    
+}
+
+

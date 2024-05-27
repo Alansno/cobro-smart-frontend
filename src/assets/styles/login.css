@@ -1,0 +1,43 @@
+.bg-login {
+    background-image: url('../img/Fondo.jpg');
+    min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center;
+}
+
+.form-bg {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.form-control {
+    border-radius: 30px!important;
+    border: none; /* Quitamos el borde predeterminado del input */
+    outline: none!important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Añadimos un sombreado en la parte inferior */
+  padding: 10px; /* Espacio para que el texto no se solape con el sombreado */
+  transition: box-shadow 0.3s; /* Agregamos una transición suave al cambio de sombreado */
+}
+
+.formLogin-color {
+  color: #26858B;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 30px; /* Espacio para el icono */
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+

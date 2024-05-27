@@ -1,0 +1,21 @@
+.bg-home {
+min-height: 100vh;
+display: flex;
+}
+
+.background-logo {
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+
+@media only screen and (max-width:600px) {
+
+    .bg-home {
+        flex-direction: column;
+    }
+
+    .background-logo {
+        width: 350px;
+    }
+}
